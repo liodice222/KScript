@@ -2,7 +2,7 @@
 setlocal
 
 
-:: Define variables; set in separate script for added security
+:: Define variables locally and set in separate script for added security, or in .bashrc 
 echo KPSCRIPT_PATH=%KPSCRIPT_PATH%
 echo DATABASE_PATH=%DATABASE_PATH%
 echo ENTRY_TITLE=%ENTRY_TITLE%
